@@ -25,7 +25,7 @@ A real-time audio analysis system and ML pipeline for acoustic surveillance. Thi
 
 ## Installation
 
-Ensure you have Python 3.x installed. Install the necessary dependencies via:
+Ensure you have Python 3.x installed. Install the necessary dependencies using:
 
 ```bash
 pip install -r requirements.txt
