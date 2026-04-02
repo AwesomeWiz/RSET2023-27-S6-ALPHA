@@ -1,52 +1,13 @@
-# Track only code/docs; ignore large media and ML artifacts.
+## Avaaz: track code + PDFs; ignore videos/models/cache
 
-# Media
-*.mp4
-*.pdf
-
-# ML models / artifacts
-/models/
-*.bin
-*.lock
-
-# OS / editor
-.DS_Store
-
-# Python cache
-__pycache__/
-*.py[cod]
-.Python
-*.egg-info/
-
-# Keep this repo focused on code/docs.
-# Ignore large media and ML model artifacts.
-
-# Media (videos, mp4)
+# Videos / media
 /INDIAN SIGN LANGUAGE ANIMATED VIDEOS*/
 *.mp4
-*.pdf
 
-# ML models / artifacts
+# ML models / artifacts (large)
 /models/
 *.bin
 *.lock
-
-# OS / editor
-.DS_Store
-
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyd
-.Python
-*.egg-info/
-
-# Project-specific ignores (requested)
-
-/INDIAN SIGN LANGUAGE ANIMATED VIDEOS /
-/INDIAN SIGN LANGUAGE ANIMATED VIDEOS/
-/models/
-
 
 # Python
 __pycache__/
